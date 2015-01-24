@@ -1,0 +1,21 @@
+{
+    "type" : "object",
+    "additionalProperties" : false,
+    "properties": {
+        "cid" : {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 30,
+            "required": false
+        },
+        "desc": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 127,
+            "required": true
+        },
+        "isdone":{
+            "type": "boolean"
+        }
+    }
+}
